@@ -31,14 +31,14 @@ public class Exercise1 {
 
                 es1[positionNumber] = newNumber;
 
-                
+
                 for (int i = 0; i < es1.length; i++) {
                     System.out.println(es1[i] + " ");
                 }
             } catch (ArrayIndexOutOfBoundsException ex) {
-                System.out.println("index dell'array non valido");
+                System.err.println("index dell'array non valido");
             } catch (Exception ex) {
-                System.out.println("errore generico");
+                System.err.println("errore generico");
             }
         }
 
